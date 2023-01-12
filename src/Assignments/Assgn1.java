@@ -15,11 +15,9 @@ class Participant{
         this.branch = branch;
         counter++;
     }
-
     public String getName(){
         return this.name;
     }
-
     public String getRegistrationId(){
         return this.registrationId;
     }
