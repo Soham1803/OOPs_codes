@@ -3,7 +3,7 @@ package Practices;
 class ArrayOps{
 
     public int minEl(int[] arre){
-        int min = 100;
+        int min = arre[0];
 
         for(int i = 0; i < arre.length; i++){
             if(arre[i] < min){
