@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654d21d1-afc0-4b4f-8c55-6179a8aa621f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut2_problem_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut2_problem_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut2_problem_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tester2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tester3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/Assgn1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Assgn1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Soham/Downloads/DarkPurpleTheme.jar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Tut2_problem_3">
-    <configuration name="Assgn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.Assgn1" />
+}</component>
+  <component name="RunManager" selected="Application.Tester2">
+    <configuration name="Tester2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tester2" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practices.Tester1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tester1" />
+    <configuration name="Tester3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tester3" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester2" />
+        <item itemvalue="Application.Tester3" />
         <item itemvalue="Application.Tut2_problem_3" />
         <item itemvalue="Application.Tut2_problem_2" />
         <item itemvalue="Application.Tut2_problem_1" />
-        <item itemvalue="Application.Assgn1" />
-        <item itemvalue="Application.Practices.Tester1" />
       </list>
     </recent_temporary>
   </component>
