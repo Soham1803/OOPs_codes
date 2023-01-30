@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654d21d1-afc0-4b4f-8c55-6179a8aa621f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut3_problem_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut3_problem_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tester4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tester5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tester6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tut3_problem_1">
+  <component name="RunManager" selected="Application.Tester6">
     <configuration name="Assign2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignments.Assign2" />
       <module name="OOPS_codes" />
@@ -54,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.StringOps" />
+    <configuration name="Tester4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tester4" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tester2" />
+    <configuration name="Tester5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tester5" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tester3" />
+    <configuration name="Tester6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tester6" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester6" />
+        <item itemvalue="Application.Tester5" />
+        <item itemvalue="Application.Tester4" />
         <item itemvalue="Application.Tut3_problem_1" />
         <item itemvalue="Application.Assign2" />
-        <item itemvalue="Application.StringOps" />
-        <item itemvalue="Application.Tester3" />
-        <item itemvalue="Application.Tester2" />
       </list>
     </recent_temporary>
   </component>
