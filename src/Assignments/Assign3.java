@@ -3,57 +3,45 @@ package Assignments;
 import java.util.Scanner;
 
 class Shape{
-    int dimension1;
-    double dimension2;
+    public double setArea(int[] dimension){  //triangle
 
-    public double setArea(){
-
-        double area = this.dimension1 * this.dimension2;
+        double area = (dimension[0] * dimension[1])/2;
 
         return area;
     }
 
-    public void getInputs(int dimension1, int dimension2){
-        this.dimension1 = dimension1;
-        this.dimension2 = dimension2;
+    public double setArea(int side){  //square
+
+        double area = (side * side);
+
+        return area;
+    }
+
+    public double setArea(double radius){  //square
+
+        double area = Math.PI * radius * radius;
+
+        return area;
     }
 
 }
 
 class Triangle extends Shape{
-    public void getInputs(int base, int height){
-        this.dimension1 = base;
-        this.dimension2 = height;
+    public int[] getInputs(int[] dimensions){
+        return dimensions;
     }
 
-    public double setArea(){
-        double area = (dimension1*dimension2)/2;
-
-        return area;
-    }
 }
-
 class Square extends Shape{
-    public void getInputs(int side){
-        this.dimension1 = side;
+    public int getInputs(int side){
+        return side;
     }
 
-    public double setArea(){
-        double area = dimension1 * dimension1;
-
-        return area;
-    }
 }
-
 class Circle extends Shape{
-    public void getInputs(double radius){
-        this.dimension2 = radius;
-    }
+    public double getInputs(double radius){
 
-    public double setArea(){
-        double area = Math.PI * dimension2 * dimension2;
-
-        return area;
+        return radius;
     }
 }
 
@@ -70,12 +58,13 @@ public class Assign3 {
 
         switch (choice){
             case 1:
+                int[] TriDimens = new int[2];
                 System.out.println("Enter the base and height on the triangle");
-                int base = sc.nextInt();
-                int height = sc.nextInt();
+                TriDimens[0] = sc.nextInt();
+                TriDimens[1] = sc.nextInt();
                 Triangle obj1 = new Triangle();
-                obj1.getInputs(base, height);
-                System.out.println("The area of the Triangle is: " + obj1.setArea());
+                int[] dimensions = obj1.getInputs(TriDimens);
+                System.out.println("The area of the Triangle is: " + obj1.setArea(dimensions));
                 break;
 
             case 2:
@@ -83,8 +72,8 @@ public class Assign3 {
                 double radius = sc.nextDouble();
 
                 Circle obj3 = new Circle();
-                obj3.getInputs(radius);
-                System.out.println("The area of the Circle is: "+ obj3.setArea());
+
+                System.out.println("The area of the Circle is: "+ obj3.setArea(obj3.getInputs(radius)));
                 break;
 
             case 3:
@@ -92,8 +81,8 @@ public class Assign3 {
                 int side = sc.nextInt();
 
                 Square obj2 = new Square();
-                obj2.getInputs(side);
-                System.out.println("The area of the Square is: " + obj2.setArea());
+
+                System.out.println("The area of the Square is: " + obj2.setArea(obj2.getInputs(side)));
                 break;
 
             default:
