@@ -24,12 +24,6 @@ class Adder{
             else j--;
         }
 
-        /*for(int i = 0; i < this.array.length-1; i++){
-            for(int j = i; j < this.array.length; j++){
-                if(this.array[i] + this.array[j] == targetSum)
-                    return new int[]{this.array[i], this.array[j]};
-            }
-        }*/
         return new int[]{};
     }
 }

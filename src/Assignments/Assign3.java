@@ -9,7 +9,6 @@ class Shape{
 
         return area;
     }
-
     public double setArea(int side){  //square
 
         double area = (side * side);
@@ -27,6 +26,7 @@ class Shape{
 }
 
 class Triangle extends Shape{
+
     public int[] getInputs(int[] dimensions){
         return dimensions;
     }
