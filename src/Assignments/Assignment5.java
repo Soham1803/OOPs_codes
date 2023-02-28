@@ -3,9 +3,9 @@ package Assignments;
 import java.util.*;
 class Order {
 
-    int id;
-    List<String> itemList = new ArrayList<>();
-    boolean cashOnDelivery;
+    private int id;
+    private List<String> itemList = new ArrayList<>();
+    private boolean cashOnDelivery;
 
     public Order(int id, List<String> itemList, boolean cashOnDelivery){
         this.id = id;
@@ -46,9 +46,7 @@ public class Assignment5 extends Order {
         List<String> items = new ArrayList<>();
 
         for(Order itr: orders){
-            for(String st: itr.itemList){
-                items.add(st);
-            }
+            items.addAll(itr.getItemNames());
         }
 
         return items;
