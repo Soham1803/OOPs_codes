@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654d21d1-afc0-4b4f-8c55-6179a8aa621f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practices/Tut7_problem_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tut10_problem_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tut10_problem_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tut8_problem_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tut9_problem_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practices/Tut9_problem_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,53 +41,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Soham/Downloads/DarkPurpleTheme.jar&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tut7_problem_1">
-    <configuration name="Assignment4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.Assignment4" />
-      <module name="OOPS_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practices.Tut5_problem_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tut5_problem_2" />
-      <module name="OOPS_codes" />
-      <option name="PROGRAM_PARAMETERS" value="2 4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practices.Tut6_problem_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tut6_problem_2" />
-      <module name="OOPS_codes" />
-      <option name="PROGRAM_PARAMETERS" value="3 21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tut6_problelm_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tut6_problelm_1" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Practices" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tut10_problem_2">
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Exam" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +63,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tut7_problem_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.Tut7_problem_1" />
+    <configuration name="Tut10_problem_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tut10_problem_1" />
+      <module name="OOPS_codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tut10_problem_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tut10_problem_2" />
+      <module name="OOPS_codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tut9_problem_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tut9_problem_1" />
+      <module name="OOPS_codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tut9_problem_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practices.Tut9_problem_2" />
       <module name="OOPS_codes" />
       <extension name="coverage">
         <pattern>
@@ -108,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tut7_problem_1" />
-      <item itemvalue="Application.Assignment4" />
-      <item itemvalue="Application.Practices.Tut5_problem_2" />
-      <item itemvalue="Application.Practices.Tut6_problem_2" />
-      <item itemvalue="Application.Tut6_problelm_1" />
+      <item itemvalue="Application.Tut10_problem_1" />
+      <item itemvalue="Application.Tut10_problem_2" />
+      <item itemvalue="Application.Exam" />
+      <item itemvalue="Application.Tut9_problem_1" />
+      <item itemvalue="Application.Tut9_problem_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tut7_problem_1" />
-        <item itemvalue="Application.Practices.Tut5_problem_2" />
-        <item itemvalue="Application.Practices.Tut6_problem_2" />
-        <item itemvalue="Application.Tut6_problelm_1" />
-        <item itemvalue="Application.Assignment4" />
+        <item itemvalue="Application.Tut10_problem_2" />
+        <item itemvalue="Application.Tut10_problem_1" />
+        <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.Tut9_problem_2" />
+        <item itemvalue="Application.Tut9_problem_1" />
       </list>
     </recent_temporary>
   </component>
